@@ -520,7 +520,9 @@ def plot_drawdowns(results_dict, output_dir):
     print("✓ Saved: 02_drawdowns.png")
 
 
-def plot_spread_zscore(df, window_days, output_dir, plot_num, spread_label="126-day"):
+def plot_spread_zscore(df, window_days, output_dir, plot_num, spread_label=None):
+    if spread_label is None:
+        spread_label = f"{window_days}-day"
     fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(12, 8))
     
     # Plot spread with mean
