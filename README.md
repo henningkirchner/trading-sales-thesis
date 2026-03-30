@@ -34,7 +34,9 @@ pip install -r requirements.txt
 Alternatively the packages can be install one by one, by just typing
 
 pip install pandas
+
 pip install numpy
+
 pip instll matplotlib
 
 into the consol
