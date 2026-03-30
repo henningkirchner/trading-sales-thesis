@@ -31,15 +31,13 @@ Install the required packages with:
 ```bash
 pip install -r requirements.txt
 ```
-Alternatively the packages can be install one by one, by just typing
+Alternatively the packages can be install one by one, by just typing the following commands into the consol.
 
 pip install pandas
 
 pip install numpy
 
 pip instll matplotlib
-
-into the consol
 
 ## Notes
 
