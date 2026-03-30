@@ -41,5 +41,5 @@ pip instll matplotlib
 
 ## Notes
 
-This repository was created as part of a school paper (Facharbeit).
+This repository was created as part of a thesis at Frankfurt School of Finance and Management.
 The code is intended to document the empirical part of the analysis and support the results discussed in the paper.
