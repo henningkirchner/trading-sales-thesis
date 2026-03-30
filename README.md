@@ -24,11 +24,20 @@ The main goal of this project is to test whether a rules-based pairs trading str
 
 ## Requirements
 
+To execute the script all input files and the script need to be in the same folder.
+
 Install the required packages with:
 
 ```bash
 pip install -r requirements.txt
 ```
+Alternatively the packages can be install one by one, by just typing
+
+pip install pandas
+pip install numpy
+pip instll matplotlib
+
+into the consol
 
 ## Notes
 
